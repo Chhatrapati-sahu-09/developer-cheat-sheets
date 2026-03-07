@@ -1,57 +1,63 @@
 # Linux Commands Cheat Sheet
 
-Linux commands help manage files, directories, and system operations.
+Linux commands allow users to interact with the operating system through the terminal. These commands help manage files, directories, and system operations efficiently.
+
+This cheat sheet provides a quick reference to commonly used Linux commands.
+
+---
 
 ## File and Directory Commands
 
-List files
+These commands help manage files and directories in the Linux file system.
 
+| Command | Description |
+|--------|-------------|
+| `ls` | Lists files and directories in the current folder |
+| `ls -l` | Lists files with detailed information such as permissions, owner, and size |
+| `cd directory_name` | Changes the current directory |
+| `cd ..` | Moves to the parent directory |
+| `mkdir folder_name` | Creates a new directory |
+| `rmdir folder_name` | Removes an empty directory |
+| `rm filename` | Deletes a file |
+
+Example:
+
+```bash
 ls
+```
 
-List files with details
+Example output:
 
-ls -l
-
-Change directory
-
-cd directory_name
-
-Go back one directory
-
-cd ..
-
-Create directory
-
-mkdir folder_name
-
-Remove directory
-
-rmdir folder_name
-
-Remove file
-
-rm filename
+```
+file1.txt
+file2.txt
+folder1
+```
 
 ---
 
 ## File Operations
 
-Copy file
+These commands are used to manipulate and view file contents.
 
-cp source destination
+| Command | Description |
+|--------|-------------|
+| `cp source destination` | Copies a file from one location to another |
+| `mv source destination` | Moves or renames a file |
+| `cat filename` | Displays the content of a file |
+| `less filename` | Views file content page by page |
+| `grep "text" filename` | Searches for a specific text pattern inside a file |
 
-Move file
+Example:
 
-mv source destination
+```bash
+cp file1.txt backup.txt
+```
 
-View file content
+This command creates a copy of `file1.txt` named `backup.txt`.
 
-cat filename
+---
 
-View file page by page
+## Summary
 
-less filename
-
-Search text in file
-
-grep "text" filename
+Linux commands provide powerful tools for managing files and interacting with the operating system through the terminal. Learning these basic commands is essential for developers, system administrators, and anyone working with Linux-based environments.
