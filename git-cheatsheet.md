@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://cdn.simpleicons.org/git/F05032" height="70" alt="Git"/>
+</p>
+
 # Git Cheat Sheet
 
 Git is a distributed version control system that allows developers to track changes in source code, collaborate with others, and maintain different versions of a project. It is widely used in software development to manage code efficiently.
@@ -8,11 +12,11 @@ This cheat sheet provides a quick reference for commonly used Git commands.
 
 ## Repository Setup
 
-These commands are used to create or download a repository.
+<img src="https://cdn.simpleicons.org/github" height="22"/> These commands are used to create or download a repository.
 
-| Command | Description |
-|--------|-------------|
-| `git init` | Initializes a new Git repository in the current directory. |
+| Command                      | Description                                                                   |
+| ---------------------------- | ----------------------------------------------------------------------------- |
+| `git init`                   | Initializes a new Git repository in the current directory.                    |
 | `git clone <repository_url>` | Creates a copy of an existing repository from a remote source such as GitHub. |
 
 Example:
@@ -25,10 +29,10 @@ git clone https://github.com/user/project.git
 
 ## Checking Repository Status
 
-These commands help you inspect the current state of your repository.
+<img src="https://cdn.simpleicons.org/git/F05032" height="22"/> These commands help you inspect the current state of your repository.
 
-| Command | Description |
-|--------|-------------|
+| Command      | Description                                                            |
+| ------------ | ---------------------------------------------------------------------- |
 | `git status` | Displays the current status of the working directory and staging area. |
 
 Example:
@@ -39,20 +43,20 @@ git status
 
 This command shows:
 
-- modified files  
-- staged files  
-- untracked files  
+* modified files
+* staged files
+* untracked files
 
 ---
 
 ## Staging Changes
 
-Before committing changes, files must be added to the staging area.
+<img src="https://cdn.simpleicons.org/git/F05032" height="22"/> Before committing changes, files must be added to the staging area.
 
-| Command | Description |
-|--------|-------------|
-| `git add <file>` | Adds a specific file to the staging area. |
-| `git add .` | Adds all modified files in the current directory to the staging area. |
+| Command          | Description                                                           |
+| ---------------- | --------------------------------------------------------------------- |
+| `git add <file>` | Adds a specific file to the staging area.                             |
+| `git add .`      | Adds all modified files in the current directory to the staging area. |
 
 Example:
 
@@ -64,10 +68,10 @@ git add index.js
 
 ## Committing Changes
 
-A commit saves a snapshot of your staged changes in the repository history.
+<img src="https://cdn.simpleicons.org/git/F05032" height="22"/> A commit saves a snapshot of your staged changes in the repository history.
 
-| Command | Description |
-|--------|-------------|
+| Command                   | Description                                                   |
+| ------------------------- | ------------------------------------------------------------- |
 | `git commit -m "message"` | Records the staged changes with a descriptive commit message. |
 
 Example:
@@ -82,11 +86,11 @@ Good commit messages help other developers understand what changes were made.
 
 ## Working with Remote Repositories
 
-Remote repositories allow collaboration with other developers.
+<img src="https://cdn.simpleicons.org/github" height="22"/> Remote repositories allow collaboration with other developers.
 
-| Command | Description |
-|--------|-------------|
-| `git push origin <branch>` | Uploads local commits to the remote repository. |
+| Command                    | Description                                              |
+| -------------------------- | -------------------------------------------------------- |
+| `git push origin <branch>` | Uploads local commits to the remote repository.          |
 | `git pull origin <branch>` | Downloads the latest changes from the remote repository. |
 
 Example:
@@ -99,15 +103,15 @@ git push origin main
 
 ## Branch Management
 
-Branches allow developers to work on features or fixes without affecting the main codebase.
+<img src="https://cdn.simpleicons.org/git/F05032" height="22"/> Branches allow developers to work on features or fixes without affecting the main codebase.
 
-| Command | Description |
-|--------|-------------|
-| `git branch <branch_name>` | Creates a new branch. |
-| `git checkout <branch_name>` | Switches to another branch. |
+| Command                         | Description                                          |
+| ------------------------------- | ---------------------------------------------------- |
+| `git branch <branch_name>`      | Creates a new branch.                                |
+| `git checkout <branch_name>`    | Switches to another branch.                          |
 | `git checkout -b <branch_name>` | Creates a new branch and switches to it immediately. |
-| `git merge <branch_name>` | Merges another branch into the current branch. |
-| `git branch -d <branch_name>` | Deletes a branch after it has been merged. |
+| `git merge <branch_name>`       | Merges another branch into the current branch.       |
+| `git branch -d <branch_name>`   | Deletes a branch after it has been merged.           |
 
 Example:
 
@@ -119,7 +123,7 @@ git checkout -b feature-login
 
 ## Useful Workflow Example
 
-A typical Git workflow may look like this:
+<img src="https://cdn.simpleicons.org/git/F05032" height="22"/> A typical Git workflow may look like this:
 
 ```bash
 git clone repository_url
