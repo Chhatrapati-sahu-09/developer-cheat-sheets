@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://cdn.simpleicons.org/http/0055FF" height="70" alt="HTTP"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="70"/>
 </p>
 
 # HTTP Status Codes Cheat Sheet
@@ -10,9 +10,11 @@ Each status code belongs to a specific category that represents the type of resp
 
 ---
 
-## 1xx Informational Responses
+## Informational Responses (1xx)
 
-<img src="https://cdn.simpleicons.org/internetarchive" height="22"/> These codes indicate that the request has been received and the process is continuing.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="22"/>
+
+These codes indicate that the request has been received and the process is continuing.
 
 | Code  | Name                | Description                                                                                       |
 | ----- | ------------------- | ------------------------------------------------------------------------------------------------- |
@@ -21,9 +23,11 @@ Each status code belongs to a specific category that represents the type of resp
 
 ---
 
-## 2xx Success Responses
+## Success Responses (2xx)
 
-<img src="https://cdn.simpleicons.org/checkmarx/00AA55" height="22"/> These codes indicate that the request was successfully received, understood, and processed.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="22"/>
+
+These codes indicate that the request was successfully received, understood, and processed.
 
 | Code  | Name       | Description                                                            |
 | ----- | ---------- | ---------------------------------------------------------------------- |
@@ -33,15 +37,17 @@ Each status code belongs to a specific category that represents the type of resp
 
 Example:
 
-```
+```id="trntcl"
 HTTP/1.1 200 OK
 ```
 
 ---
 
-## 3xx Redirection Responses
+## Redirection Responses (3xx)
 
-<img src="https://cdn.simpleicons.org/redirect" height="22"/> These codes indicate that further action must be taken by the client to complete the request.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="22"/>
+
+These codes indicate that further action must be taken by the client to complete the request.
 
 | Code  | Name              | Description                                                                             |
 | ----- | ----------------- | --------------------------------------------------------------------------------------- |
@@ -51,9 +57,11 @@ HTTP/1.1 200 OK
 
 ---
 
-## 4xx Client Error Responses
+## Client Error Responses (4xx)
 
-<img src="https://cdn.simpleicons.org/bug" height="22"/> These codes indicate that the request contains incorrect syntax or cannot be fulfilled by the server.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="22"/>
+
+These codes indicate that the request contains incorrect syntax or cannot be fulfilled by the server.
 
 | Code  | Name         | Description                                                        |
 | ----- | ------------ | ------------------------------------------------------------------ |
@@ -64,15 +72,17 @@ HTTP/1.1 200 OK
 
 Example:
 
-```
+```id="ogeysl"
 HTTP/1.1 404 Not Found
 ```
 
 ---
 
-## 5xx Server Error Responses
+## Server Error Responses (5xx)
 
-<img src="https://cdn.simpleicons.org/serverfault" height="22"/> These codes indicate that the server encountered an error while processing the request.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="22"/>
+
+These codes indicate that the server encountered an error while processing the request.
 
 | Code  | Name                  | Description                                                                          |
 | ----- | --------------------- | ------------------------------------------------------------------------------------ |
