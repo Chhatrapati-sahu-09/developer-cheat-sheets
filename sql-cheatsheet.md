@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="70"/>
+</p>
+
 # SQL Cheat Sheet
 
 SQL (Structured Query Language) is used to manage and query relational databases. It allows developers to create, read, update, and delete data stored in database tables.
@@ -7,6 +11,8 @@ This cheat sheet provides commonly used SQL commands and examples.
 ---
 
 ## Select Data
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
 
 Retrieve all data from a table.
 
@@ -23,6 +29,8 @@ SELECT name, email FROM users;
 ---
 
 ## Insert Data
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
 
 Add new records to a table.
 
@@ -44,6 +52,8 @@ VALUES
 
 ## Update Data
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
+
 Modify existing records in a table.
 
 ```sql
@@ -64,6 +74,8 @@ WHERE id = 1;
 
 ## Delete Data
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
+
 Remove records from a table.
 
 ```sql
@@ -80,6 +92,8 @@ DELETE FROM users;
 ---
 
 ## Filtering Data
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
 
 Filter records using conditions.
 
@@ -99,6 +113,8 @@ WHERE age > 18 AND city = 'London';
 
 ## Sorting Results
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
+
 Sort records in ascending order.
 
 ```sql
@@ -117,6 +133,8 @@ ORDER BY age DESC;
 
 ## Limiting Results
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
+
 Limit the number of returned rows.
 
 ```sql
@@ -128,15 +146,17 @@ LIMIT 5;
 
 ## Aggregate Functions
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
+
 Perform calculations on data.
 
-| Function | Description |
-|---------|-------------|
-| COUNT() | Counts number of rows |
-| SUM() | Calculates total value |
-| AVG() | Calculates average value |
-| MAX() | Finds maximum value |
-| MIN() | Finds minimum value |
+| Function  | Description              |
+| --------- | ------------------------ |
+| `COUNT()` | Counts number of rows    |
+| `SUM()`   | Calculates total value   |
+| `AVG()`   | Calculates average value |
+| `MAX()`   | Finds maximum value      |
+| `MIN()`   | Finds minimum value      |
 
 Example:
 
@@ -147,6 +167,8 @@ SELECT COUNT(*) FROM users;
 ---
 
 ## GROUP BY
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
 
 Group rows that have the same values.
 
@@ -159,6 +181,8 @@ GROUP BY city;
 ---
 
 ## JOIN Operations
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
 
 Join data from multiple tables.
 
@@ -188,6 +212,8 @@ ON users.id = orders.user_id;
 
 ## Creating Tables
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
+
 Create a new table.
 
 ```sql
@@ -201,6 +227,8 @@ CREATE TABLE users (
 ---
 
 ## Dropping Tables
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="22"/>
 
 Delete a table permanently.
 
