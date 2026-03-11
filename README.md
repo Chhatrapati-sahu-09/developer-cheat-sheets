@@ -1,10 +1,15 @@
 # Developer Cheat Sheets
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/developer-cheat-sheets)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/yourusername/developer-cheat-sheets)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/developer-cheat-sheets)
-![GitHub Contributors](https://img.shields.io/github/contributors/yourusername/developer-cheat-sheets)
+<p align="left">
 
+<img src="https://cdn.simpleicons.org/github" height="35" alt="github icon"/>
+<img src="https://cdn.simpleicons.org/git" height="35" alt="git icon"/>
+<img src="https://cdn.simpleicons.org/javascript" height="35" alt="javascript icon"/>
+<img src="https://cdn.simpleicons.org/linux" height="35" alt="linux icon"/>
+<img src="https://cdn.simpleicons.org/mysql" height="35" alt="mysql icon"/>
+<img src="https://cdn.simpleicons.org/http" height="35" alt="http icon"/>
+
+</p>
 A collection of quick reference guides for commonly used commands, concepts, and syntax in software development.
 
 ---
