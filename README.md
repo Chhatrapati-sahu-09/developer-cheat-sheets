@@ -7,7 +7,7 @@
 <img src="https://cdn.simpleicons.org/javascript" height="35" alt="javascript icon"/>
 <img src="https://cdn.simpleicons.org/linux" height="35" alt="linux icon"/>
 <img src="https://cdn.simpleicons.org/mysql" height="35" alt="mysql icon"/>
-<img src="https://cdn.simpleicons.org/http" height="35" alt="http icon"/>
+
 
 </p>
 A collection of quick reference guides for commonly used commands, concepts, and syntax in software development.
