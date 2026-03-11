@@ -1,9 +1,9 @@
 # Developer Cheat Sheets
 
-![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/developer-cheat-sheets)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/developer-cheat-sheets)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/developer-cheat-sheets)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/yourusername/developer-cheat-sheets)
+![GitHub Issues](https://img.shields.io/github/issues/yourusername/developer-cheat-sheets)
+![GitHub Contributors](https://img.shields.io/github/contributors/yourusername/developer-cheat-sheets)
 
 A collection of quick reference guides for commonly used commands, concepts, and syntax in software development.
 
