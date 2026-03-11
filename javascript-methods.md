@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="70"/>
+</p>
+
 # JavaScript Array Methods Cheat Sheet
 
 JavaScript arrays provide many built-in methods that allow developers to transform, filter, search, and process data efficiently. These methods help simplify operations that would otherwise require loops and complex logic.
@@ -7,6 +11,8 @@ This cheat sheet highlights some commonly used JavaScript array methods with exp
 ---
 
 ## map()
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="22"/>
 
 The `map()` method creates a new array by applying a function to each element of the original array.
 
@@ -32,6 +38,8 @@ Output:
 
 ## filter()
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="22"/>
+
 The `filter()` method creates a new array containing only the elements that satisfy a specified condition.
 
 Example:
@@ -53,6 +61,8 @@ Output:
 ---
 
 ## reduce()
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="22"/>
 
 The `reduce()` method processes all elements in an array and reduces them to a single value.
 
@@ -78,6 +88,8 @@ Output:
 
 ## find()
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="22"/>
+
 The `find()` method returns the first element in an array that matches a specified condition.
 
 If no element matches the condition, it returns `undefined`.
@@ -101,6 +113,8 @@ Output:
 ---
 
 ## includes()
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="22"/>
 
 The `includes()` method checks whether a specific value exists within an array.
 
